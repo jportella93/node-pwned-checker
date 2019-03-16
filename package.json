@@ -1,0 +1,16 @@
+{
+  "name": "node-pwned-checker",
+  "version": "1.0.0",
+  "description": "Pass a password list from https://haveibeenpwned.com/Passwords and your password and find out if you have been pwned without sending your password to a server.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "main": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jon Portella",
+  "license": "MIT",
+  "dependencies": {
+    "event-stream": "^4.0.1"
+  }
+}
